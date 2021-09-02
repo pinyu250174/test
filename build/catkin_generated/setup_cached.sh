@@ -7,9 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/pinyu/test/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/pinyu/test/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/pinyu/test/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/pinyu/test/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/pinyu/test/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/pinyu/test/src:$ROS_PACKAGE_PATH"
