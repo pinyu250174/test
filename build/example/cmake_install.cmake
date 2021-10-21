@@ -1,8 +1,8 @@
-# Install script for directory: /home/pinyu/test/src/example
+# Install script for directory: /home/e219/test/src/example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pinyu/test/install")
+  set(CMAKE_INSTALL_PREFIX "/home/e219/test/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example/msg" TYPE FILE FILES "/home/pinyu/test/src/example/msg/answer.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example/msg" TYPE FILE FILES "/home/e219/test/src/example/msg/answer.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example/cmake" TYPE FILE FILES "/home/pinyu/test/build/example/catkin_generated/installspace/example-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example/cmake" TYPE FILE FILES "/home/e219/test/build/example/catkin_generated/installspace/example-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/pinyu/test/devel/include/example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/e219/test/devel/include/example")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/pinyu/test/devel/share/roseus/ros/example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/e219/test/devel/share/roseus/ros/example")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/pinyu/test/devel/share/common-lisp/ros/example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/e219/test/devel/share/common-lisp/ros/example")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/pinyu/test/devel/share/gennodejs/ros/example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/e219/test/devel/share/gennodejs/ros/example")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/pinyu/test/devel/lib/python2.7/dist-packages/example")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/e219/test/devel/lib/python2.7/dist-packages/example")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/pinyu/test/devel/lib/python2.7/dist-packages/example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/e219/test/devel/lib/python2.7/dist-packages/example")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pinyu/test/build/example/catkin_generated/installspace/example.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/e219/test/build/example/catkin_generated/installspace/example.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example/cmake" TYPE FILE FILES "/home/pinyu/test/build/example/catkin_generated/installspace/example-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example/cmake" TYPE FILE FILES "/home/e219/test/build/example/catkin_generated/installspace/example-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example/cmake" TYPE FILE FILES
-    "/home/pinyu/test/build/example/catkin_generated/installspace/exampleConfig.cmake"
-    "/home/pinyu/test/build/example/catkin_generated/installspace/exampleConfig-version.cmake"
+    "/home/e219/test/build/example/catkin_generated/installspace/exampleConfig.cmake"
+    "/home/e219/test/build/example/catkin_generated/installspace/exampleConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example" TYPE FILE FILES "/home/pinyu/test/src/example/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example" TYPE FILE FILES "/home/e219/test/src/example/package.xml")
 endif()
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example_generate_messages_nodejs"
-  "/home/pinyu/test/devel/share/gennodejs/ros/example/msg/answer.js"
+  "/home/e219/test/devel/share/gennodejs/ros/example/msg/answer.js"
 )
 
 # Per-language clean rules from dependency scanning.

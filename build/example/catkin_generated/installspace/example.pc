@@ -1,4 +1,4 @@
-prefix=/home/pinyu/test/install
+prefix=/home/e219/test/install
 
 Name: example
 Description: Description of example

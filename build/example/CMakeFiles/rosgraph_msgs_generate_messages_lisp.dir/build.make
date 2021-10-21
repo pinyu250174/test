@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pinyu/test/src
+CMAKE_SOURCE_DIR = /home/e219/test/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pinyu/test/build
+CMAKE_BINARY_DIR = /home/e219/test/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ example/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build: rosgraph_msgs
 .PHONY : example/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 
 example/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	cd /home/pinyu/test/build/example && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/e219/test/build/example && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : example/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 example/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/pinyu/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pinyu/test/src /home/pinyu/test/src/example /home/pinyu/test/build /home/pinyu/test/build/example /home/pinyu/test/build/example/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/e219/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e219/test/src /home/e219/test/src/example /home/e219/test/build /home/e219/test/build/example /home/e219/test/build/example/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

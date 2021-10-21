@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example_generate_messages_cpp"
-  "/home/pinyu/test/devel/include/example/answer.h"
+  "/home/e219/test/devel/include/example/answer.h"
 )
 
 # Per-language clean rules from dependency scanning.

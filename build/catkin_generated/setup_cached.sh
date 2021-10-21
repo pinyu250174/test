@@ -7,4 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/pinyu/test/build'
+export LD_LIBRARY_PATH='/opt/ros/melodic/lib'
+export PKG_CONFIG_PATH='/opt/ros/melodic/lib/pkgconfig'
+export PWD='/home/e219/test/build'
+export PYTHONPATH='/opt/ros/melodic/lib/python2.7/dist-packages'
+export ROS_PACKAGE_PATH='/home/e219/test/src:/opt/ros/melodic/share'

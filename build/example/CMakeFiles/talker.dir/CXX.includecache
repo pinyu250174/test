@@ -6,23 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pinyu/test/devel/include/example/answer.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
-/home/pinyu/test/src/example/src/talker.cpp
+/home/e219/test/src/example/src/talker.cpp
 ros/ros.h
 -
 stdio.h
@@ -240,10 +224,6 @@ boost/make_shared.hpp
 cstddef
 -
 memory
--
-
-/opt/ros/melodic/include/ros/message_operations.h
-ostream
 -
 
 /opt/ros/melodic/include/ros/message_traits.h

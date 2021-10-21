@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/talker.dir/src/talker.cpp.o"
-  "/home/pinyu/test/devel/lib/example/talker.pdb"
-  "/home/pinyu/test/devel/lib/example/talker"
+  "/home/e219/test/devel/lib/example/talker.pdb"
+  "/home/e219/test/devel/lib/example/talker"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example_generate_messages_eus"
-  "/home/pinyu/test/devel/share/roseus/ros/example/msg/answer.l"
-  "/home/pinyu/test/devel/share/roseus/ros/example/manifest.l"
+  "/home/e219/test/devel/share/roseus/ros/example/msg/answer.l"
+  "/home/e219/test/devel/share/roseus/ros/example/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

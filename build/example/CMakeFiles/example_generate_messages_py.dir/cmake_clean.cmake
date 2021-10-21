@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example_generate_messages_py"
-  "/home/pinyu/test/devel/lib/python2.7/dist-packages/example/msg/_answer.py"
-  "/home/pinyu/test/devel/lib/python2.7/dist-packages/example/msg/__init__.py"
+  "/home/e219/test/devel/lib/python2.7/dist-packages/example/msg/_answer.py"
+  "/home/e219/test/devel/lib/python2.7/dist-packages/example/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.
